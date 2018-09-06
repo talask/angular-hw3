@@ -69,8 +69,10 @@
       <!-- / card --> 
       <div class="info alert alert-dark" *ngIf="post.isComment">
         <div class="review-show" *ngFor="let comm of comments">
-        <h6>{{ comm.name }}</h6>
-         <blockquote>{{ comm.body }}</blockquote>
+          <h6>{{ comm.name }}</h6>
+          <blockquote>{{ comm.body }}</blockquote>
+        </div> 
+        <!-- / review-show -->
       </div> 
       <!-- / info -->
     </div>
